@@ -58,7 +58,7 @@ body {
 .search button {
     border: 0;
     outline: 0;
-    background-color: #ff5722;
+    background-color: #ffffff; /* Latar belakang putih */
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -68,16 +68,17 @@ body {
     align-items: center;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     padding: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan untuk efek 3D */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Bayangan ringan */
 }
 
 .search button:hover {
-    background-color: #ff3d00;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan lebih tegas saat hover */
+    background-color: #f0f0f0; /* Efek hover abu-abu terang */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Bayangan lebih kuat saat hover */
 }
 
 .search button img {
-    width: 20px;
+    width: 20px; /* Ukuran ikon lebih besar agar lebih terlihat */
+    filter: brightness(0); /* Pastikan ikon berwarna hitam atau sesuaikan dengan warna search bar */
 }
 
 .weather-icon {
