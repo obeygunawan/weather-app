@@ -37,6 +37,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+    gap: 12px; /* memberikan jarak antar input dan tombol */
 }
 
 .search input {
@@ -50,6 +51,7 @@ body {
     flex: 1;
     font-size: 18px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    min-width: 0; /* memastikan input tidak terpotong */
 }
 
 .search button {
@@ -64,6 +66,7 @@ body {
     justify-content: center;
     align-items: center;
     transition: background-color 0.3s ease;
+    padding: 5px;
 }
 
 .search button:hover {
@@ -147,6 +150,12 @@ body {
 
     .search input {
         font-size: 16px;
+        height: 45px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
     }
 
     .details {
