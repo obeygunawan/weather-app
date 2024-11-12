@@ -37,7 +37,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-    gap: 12px; /* memberikan jarak antar input dan tombol */
+    gap: 12px; /* memberi jarak antar input dan tombol */
 }
 
 .search input {
@@ -57,7 +57,7 @@ body {
 .search button {
     border: 0;
     outline: 0;
-    background: #ffcc00;
+    background: #ffcc00; /* Warna kuning terang */
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -65,12 +65,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
     padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan untuk efek 3D */
 }
 
 .search button:hover {
-    background-color: #ff9900;
+    background-color: #ff9900; /* Ganti ke warna oranye saat hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan lebih tegas saat hover */
 }
 
 .search button img {
